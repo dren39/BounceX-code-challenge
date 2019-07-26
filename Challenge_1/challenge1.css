@@ -1,0 +1,144 @@
+/*************************
+ *  your code goes here  *
+ *************************/
+
+ .bx-type {
+  /* Sizes the overall container and hides overflow */
+  width: 700px;
+  overflow-x: hidden;	
+}
+
+.bx-creative.bx-creative-1 {
+  /* sizes and colors the overall container */
+  background-color: rgb(255, 196, 0);
+  width: 700px;
+  min-height: 600px;
+}
+
+#logo {
+  /* sizes the logo */
+	width: 300px;
+  margin-top: 3vh;
+  margin-bottom: 8vh;
+}
+
+.bx-row-subheadline-1 {
+  /* sizes and colors the first text line */
+	font-family: sans-serif;
+  color: darkblue;
+  font-size: 1.5em;
+}
+
+.bx-row.bx-row-subheadline {
+  /* puts margin on the container for the first text line */
+  margin-bottom: 4vh;
+}
+
+.bx-row-headline-1 {
+  /* sizes and colors the second line text */
+  font-family: sans-serif;
+  color: darkblue;
+  font-size: 3.43em;
+  font-weight: 900;
+  /* margin-bottom: -4vh; */
+}
+
+.bx-row-headline-2 {
+  /* sizes and colors the third line text */
+  font-family: sans-serif;
+  color: darkblue;
+  font-size: 5em;
+  font-weight: 900;
+}
+
+.bx-row.bx-row-headline {
+  /* closes the gap between text lines two and three */
+  margin-top: -4vh;
+}
+
+.bx-row.bx-row-email {
+  /* puts margin on the email input container */
+  margin-top: 1vh;
+}
+
+#input {
+  /* centers the placeholder text and sizes input box */
+  text-align: center;
+  width: 68%;
+  box-shadow: 0px 7px 4px -3px rgba(128,128,128,1);
+}
+
+#arrow-container {
+  /* colors and sizes the div container for the arrow image */
+  background-color: darkblue;
+  width: 7vw;
+  height: 14vh;
+
+}
+
+#arrow {
+  /* sizes the arrow image */
+  width: 7%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 1vw;
+}
+
+#submit-container {
+  /* puts margin and width on the button container */
+  width: 69%;
+  margin-left: 7.5vw;
+}
+
+#submit-button {
+  /* styles the button tag */
+  display: flex;
+  align-items: center;
+  background-color: darkblue;
+  height: 14vh;
+  box-shadow: 0px 7px 4px -3px rgba(128,128,128,1);
+  background-image: linear-gradient(rgba(0, 0, 1.5, 0), rgba(0, 0, 0, 0.5));
+}
+
+#join-text {
+  /* styles the "join now" text */
+  font-size: 2em;
+  margin-left: 33%;
+}
+
+#separator-line {
+  /* styles the separator line image */
+  position: absolute;
+  left: 22%;
+  top: 0;
+  bottom: 0;
+  border-width: 0.1vw;
+  height: 14vh;
+  border-style: solid;
+  border-image: linear-gradient(to top, #fff, rgba(0, 0, 0, 0)) 1;
+}
+
+#triangle {
+  /* creates the triangle effect */
+  background-image: -webkit-linear-gradient( 90deg, rgb(235, 173, 17) 0%, rgb(255, 220, 22) 100%);
+  position: absolute;
+  top: -25%;
+  right: -19%;
+  width: 42%;
+  height: 43%;
+  transform: rotate(43deg);
+  box-shadow: 0px 8px 57px 0px rgba(0,0,0,0.5);
+}
+
+.bx-type .bx-close-circle:after {
+  /* places and styles the lock image */
+  content: '';
+  background: url(./lock_image.png);
+  background-repeat: no-repeat;
+  background-size: 75%;
+  height: 12vh;
+  width: 5vw;
+  position: absolute;
+  top: 15px;
+  right: -6px;
+}
